@@ -55,7 +55,6 @@ console.log ("start")
 // }
 
 
-console.log('fake')
 
 const cinemaData = [
   {
