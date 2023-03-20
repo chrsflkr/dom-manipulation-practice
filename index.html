@@ -1,22 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="root">
+      <div class="cube"></div>
 
-</head>
-<body>
-  <div id="root">
-    <div class="cube"></div>
+      <button>content</button>
+      <div class="circle"></div>
+    </div>
 
-    <button>content</button>
-    <div class="circle"></div>
+    <------------------->
+    <section id="example-element">
+      <div class="face front">1</div>
+      <div class="face back">2</div>
+      <div class="face right">3</div>
+      <div class="face left">4</div>
+      <div class="face top">5</div>
+      <div class="face bottom">6</div>
+    </section>
 
-   </div>
-</body>
+    <div class="checkbox">
+      <label for="preserve"><code>preserve-3d</code></label>
+      <input type="checkbox" id="preserve" checked />
+    </div>
+
+    <div class="animation">
+      
+        <div class="line1"><span>THE FUTURE</span></div>
+          </br>
+        <div class="line2"><span>IS WHOLE FOODS</span
+        ></div>
+      </h1>
+    </div>
+
+
+
+
+    <h1 class="tittle-animation">
+      <span class="text-wrapper">
+        <span class="letters">THE FUTURE  <br/>
+          IS WHOLE FOODS</span>
+      </span>
+    </h1>
+  </body>
 </html>
